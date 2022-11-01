@@ -170,3 +170,17 @@ If you have docker installed you can simply run `docker-compose up` to launch th
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
+Following steps need to be followed to host a resume online. 
+### Step 1: Create a GitHub account
+### Step 2: Choose a descent resume theme from a jekyll themes. 
+### Step 3: Fork or clone that resume theme on your local machine
+### Step 4: Open up config.yml file and made changes according to your profile.
+### Step 5: Open up command line and start jekyll on this folder 
+### Step 6: If all the changes are according to your preferences then push this repository on GitHub 
+### Step 7: Open up GitHub and select this repository
+### Step 8: Go to pages menu inside settings of this repository.
+### Step 9: Choose branch on which your code is sitting and then click on the save button. 
+### Step 10: After couple of seconds refresh your page and a link would be generated.
+### Step 11: Click on that link and a website will open up that is hosting your resume online. 
