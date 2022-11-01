@@ -73,7 +73,7 @@ content:
       - layout: left
         title: Brewers' Distributor Limited
         sub_title: SAP software specialist
-        caption: May 2022 - current
+        caption: May 2022 - current  
 
         quote: >
         description: | # this will include new lines to allow paragraphs
@@ -83,10 +83,10 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: left  
         title: University of Manitoba
         sub_title: Bachelor of computer science
-        caption: May 2018 - current
+        caption: May 2018 - current  
         quote: >
         description: | # this will include new lines to allow paragraphs
           Relevant coursework:
