@@ -151,7 +151,16 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Following steps need to be followed to host a resume online. 
 ### Step 1: Create a GitHub account
+- If you already don't have github account, create one.
+- To create a github account you need to go to [github.com](https://github.com)
+- Create an account by clicking on sign up and then filling out all the necessary information. 
 ### Step 2: Choose a descent resume theme from a jekyll themes. 
+- Once your github account is raedy you need to go to [jekyll-themes.com](https://jekyll-themes.com)
+- In search bar search for resume or CV
+- Now different resume themes will load.
+- Choose any theme that is suitable for your resume.
+- For my resuem I chose [modern-resume](https://jekyll-themes.com/modern-resume/)
+- Once you choose a a theme  
 ### Step 3: Fork or clone that resume theme on your local machine
 ### Step 4: Open up config.yml file and made changes according to your profile.
 ### Step 5: Open up command line and start jekyll on this folder 
