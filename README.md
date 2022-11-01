@@ -4,7 +4,14 @@
 *Host your own resume on GitHub for **free!***
 
 ----
-
+Audience: CS Student
+Venue: README on Github Pages
+Purpose: Explain how to host a resume on Github Pages.
+Additional purpose: Introduce and demonstrate the principles of Andrew Etter's
+book Modern Technical Writing
+Desired Reaction: CS Students learn how to host resuem online. 
+Vocabulary: informal
+Tone: informal
 
 ## License
 
