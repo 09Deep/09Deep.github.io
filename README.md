@@ -186,5 +186,6 @@ Following steps need to be followed to host a resume online.
 ### Step 11: Click on that link and a website will open up that is hosting your resume online. 
 
 
-This theme is developed by [Sproogen.](https://github.com/sproogen/)
+## Acknowledgement
+This theme is developed by [Sproogen.](https://github.com/sproogen/)  
 This theme is taken from [jekyll-themes.com](https://jekyll-themes.com/modern-resume/)
