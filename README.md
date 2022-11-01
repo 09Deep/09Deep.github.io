@@ -159,15 +159,18 @@ Following steps need to be followed to host a resume online.
 - In search bar search for resume or CV
 - Now different resume themes will load.
 - Choose any theme that is suitable for your resume.
-- For my resuem I chose [modern-resume](https://jekyll-themes.com/modern-resume/)
-- Once you choose a a theme  
+- For my resuem I chose [modern-resume-theme](https://jekyll-themes.com/modern-resume/)
+- Once you choose a theme a demo, download, and repository options will appear.
+- Click on the download button and a zip file will download.  
 ### Step 3: Fork or clone that resume theme on your local machine
+- Now open up commmand line in your computer.
+- Navigate to or create the folder where you want to save the local copies. 
 ### Step 4: Open up config.yml file and made changes according to your profile.
 ### Step 5: Open up command line and start jekyll on this folder 
 ### Step 6: If all the changes are according to your preferences then push this repository on GitHub 
 ### Step 7: Open up GitHub and select this repository
 ### Step 8: Go to pages menu inside settings of this repository.
-### Step 9: Choose branch on which your code is sitting and then click on the save button. 
+### Step 9: Choose branch on which your code is spenitting and then click on the save button. 
 ### Step 10: After couple of seconds refresh your page and a link would be generated.
 ### Step 11: Click on that link and a website will open up that is hosting your resume online. 
 
