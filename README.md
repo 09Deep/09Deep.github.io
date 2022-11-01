@@ -184,3 +184,7 @@ Following steps need to be followed to host a resume online.
 ### Step 9: Choose branch on which your code is sitting and then click on the save button. 
 ### Step 10: After couple of seconds refresh your page and a link would be generated.
 ### Step 11: Click on that link and a website will open up that is hosting your resume online. 
+
+
+This theme is developed by [Sproogen.](https://github.com/sproogen/)
+This theme is taken from [jekyll-themes.com](https://jekyll-themes.com/modern-resume/)
