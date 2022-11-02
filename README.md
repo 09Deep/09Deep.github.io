@@ -30,8 +30,9 @@ What is git?
 
 1. If you already don't have github account, create one.
 2. To create a github account you need to go to [github.com](https://github.com)
-3. Create an account by clicking on sign up and then filling out all the necessary information.
-4. Now to create a local git repository use the `git init` command.
+![Github signup page](https://github.com/09Deep/09Deep.github.io/blob/main/images/Github%20signup.png)
+4. Create an account by clicking on sign up and then filling out all the necessary information.
+5. Now to create a local git repository use the `git init` command.
  
 
 - Once your Github account is ready create a new repository locally and name that repository as `<username>+.github.io` .
