@@ -99,5 +99,5 @@ What is Jekyll themes?
 ## Acknowledgement
 
 This theme is developed by [Sproogen.](https://github.com/sproogen/)  
-This theme is taken from [jekyll-themes.com](https://jekyll-themes.com/modern-resume/)
+This theme is taken from [jekyll-themes.com](https://jekyll-themes.com/modern-resume/)   
 Special thanks to Vlad, and Alyson for giving helpful feedback.
