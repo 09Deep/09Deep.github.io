@@ -1,133 +1,88 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# How to host your resume online
 
-# Content configuration version
-version: 2
+### The goal of this readme is to explain its readers the process of hosting a resume online with the use of technologies such as GitHub, GitHub pages, Markdown and Jekyll.
 
-# Personal info
-name: Deep Patel
-title: Web Developer
-email: deepips09@gmail.com
-# email_title: Email (Email title override)
-phone: (431)990 2009
-# phone_title: Phone (Phone title override)
-#website:
-# website_title: Web (Website title override)
+### Before starting this guide we assume that you already have a resume formatted in markdown language.
 
-# Dark Mode (true/false/never)
-darkmode: false
+Don't know what a markdown is! Don't Worry I have excellent resources that will help you out in learning markdown. 
+- [Markdown tutorial](https://www.markdowntutorial.com/)
+- [A book by Andrew Etter](https://read.amazon.com/?asin=B01A2QL9SS&ref_=kwl_kr_iv_rec_1&language=en-US)
 
-# Social links
 
-# Additional icon links
-#additional_links:
-#- title: Link name
-# icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+Now since you have learned markdown we assume that you created a resume in markdown as well.  
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/profilepic.jpg
-about_content: | # this will include new lines to allow paragraphs
-  A web developer who loves to work in team, has leadership skill, and is a quick lerner. Eager to see myself as a successful web developer who is responsible for designing and implementing front and back end of web applications.
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Fitness Forever
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        #additional_links:
-        #- title:  Github page for project (eg. sproogen/modern-resume-theme)
-        # icon: fab fa-github
-        # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #- title:  Github page for project (eg. sproogen/modern-resume-theme)
-        # icon: fab fa-github
-        # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          A multipage fitness website
-        description: | # this will include new lines to allow paragraphs
-          To create and maintain this website following tools were used:  
-          -HTML   
-          -CSS  
-          -JavaScript  
-          -React framework   
-          -GitHub
-  - title: Experience
-    layout: list
-    content:
-      - layout: top-right
-        title: Brewers' Distributor Limited
-        sub_title: SAP software specialist
-        caption: May 2022 - current
+Following steps need to be followed to host a resume online.
 
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-          - Helping in basic wraehouse operations such as receiving stocks, inventory management, shipping stocks with the help of SAP SCM software.
+### Step 1: Create a GitHub account
 
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: University of Manitoba
-        sub_title: Bachelor of computer science
-        caption: May 2018 - current
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-          Relevant coursework:
-          - Human Computer Interaction
-          - Advance Human Computer Interaction
-          - Software engineering
+What is a github?
+ - Github is an online hosting service that uses git to help people   tracking their progress, as well as allowing multiple people to work on the same code flawlessly. 
 
-  - title: Skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      -	HTML / CSS    
-      -	JavaScript    
-      -	Git / GitHub    
-      -	SQL / SQL Server    
-      -	Responsive designing with the use of React framework and Angular    
-      -	Testing and debugging
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+What is git?
+- As andrew Etter expalins in his book Modern technical writing git is a decentralized version control (DVS) system that helps people collaborating on the same project. Means let's say if multiple people are working on the same code, then it becomes easy to collaborate if each person gets their own copy. When these people are done with their tasks everyone's copies can be merged online. Moreover it also tracks the history of the main copy so you can get back to the previous version whenever you want.
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-sass:
-  sass_dir: _sass
-  style: compressed
 
-plugins:
-  - jekyll-seo-tag
+1. If you already don't have github account, create one.
+2. To create a github account you need to go to [github.com](https://github.com)
+![Github signup page](https://github.com/09Deep/09Deep.github.io/blob/main/images/Github%20signup.png)
+3. Create an account by clicking on sign up and then filling out all the necessary information.
+![Github signup requirement](https://github.com/09Deep/09Deep.github.io/blob/main/images/github%20signup%20email%20prompt.png)
+4. Now to create a local git repository use the `git init` command.
+ 
 
-exclude:
-  [
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-    "lib/",
-    "scripts/",
-    "docker-compose.yml",
-  ]
+- Once your Github account is ready create a new repository locally and name that repository as `<username>+.github.io` .
+
+
+
+### Step 2: Choose a descent resume theme from a jekyll themes.
+
+Before we get going..
+
+What is Jekyll?
+- Jekyll is a static web-site generater, means you supply content and templete or structure to jekyll and process those and gives you a static website back. As Etter's explanation content is usually a markdown file and templete is a combination of HTML+CSS. Templete makes sure how your content will look like on the website. 
+
+What is Jekyll themes?
+- Jekylll themes is a collection of lots of templetes. If you do not want to design the formate for your content, you can choose any from these available themes.     
+
+1. You need to go to [jekyll-themes.com](https://jekyll-themes.com)
+2. In search bar search for resume or CV
+3. Now different resume themes will load.
+4. Choose any theme that is suitable for your resume.
+5. For my resume I chose [modern-resume-theme](https://jekyll-themes.com/modern-resume/)
+6. Once you choose a theme 3 options will appear: demo, download, and repository 
+7. Click on the download button and a zip file will download.
+8. Once the file gets download unzip it to the loaction where we created the git repository in previous step. 
+9. Now in in the command line navigate to the same directory where the  git repository is created. 
+10. Type the following 2 commands one by one in the command line.
+    1. `bundle install`
+    2. `bundle exec jekyll serve`
+11. After executing these commands a following message will appeare.   
+ ![Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
+12. Now you can see what an actual templete looks like without any changes.
+
+### Step 4: Open up config.yml file and make changes according to your profile.
+- Inside the .yml file the code is pretty self explanatory. First section is about personal detail such as email and phone number. Second section is about brief introduction about yourself. Then third section is divided into 4 parts 1) Projects, 2) Experience, 3) Education, 4) Skills
+- I am attaching my markdown resume parts along with the changes that are needed in this .yml file. 
+
+- Once the changes are done Open up command line and start jekyll on this folder
+- Then go to port 4000 using any web browser, and you will be able to see all the changes here. 
+
+### Step 5: Push all the changes into github
+
+- If all the changes are according to your preferences then push this repository on GitHub
+
+- Open up GitHub and select this repository
+
+### Step 6: Using Github pages host your resume
+- Inside the repository go to the settings menu.
+- Inside setting menu there is Pages button on the left hand side pannel. Click on that pages menu. 
+- Choose branch on which your code is spenitting and then click on the save button.
+- After couple of seconds refresh your page and a link would be generated.
+- Click on that link and a website will open up that is hosting your resume online.
+
+## Acknowledgement
+
+This theme is developed by [Sproogen.](https://github.com/sproogen/)  
+This theme is taken from [jekyll-themes.com](https://jekyll-themes.com/modern-resume/)
