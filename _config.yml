@@ -18,23 +18,6 @@ phone: (431)990 2009
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-
-# Additional icon links
-#additional_links:
-#- title: Link name
-# icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profilepic.jpg
@@ -49,15 +32,6 @@ content:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
         title: Fitness Forever
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-        #additional_links:
-        #- title:  Github page for project (eg. sproogen/modern-resume-theme)
-        # icon: fab fa-github
-        # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #- title:  Github page for project (eg. sproogen/modern-resume-theme)
-        # icon: fab fa-github
-        # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           A multipage fitness website
         description: | # this will include new lines to allow paragraphs
