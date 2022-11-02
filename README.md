@@ -73,29 +73,31 @@ What is Jekyll themes?
 
 ### Step 4: Open up config.yml file and make changes according to your profile.
 
-- Inside the .yml file the code is pretty self explanatory. First section is about personal detail such as email and phone number. Second section is about brief introduction about yourself. Then third section is divided into 4 parts 1) Projects, 2) Experience, 3) Education, 4) Skills
-- I am attaching my markdown resume parts along with the changes that are needed in this .yml file.
+1. Inside the .yml file the code is pretty self explanatory. First section is about personal detail such as email and phone number. Second section is about brief introduction about yourself. Then third section is divided into 4 parts 1) Projects, 2) Experience, 3) Education, 4) Skills
+2. I am attaching my markdown resume parts along with the changes that are needed in this .yml file.
  ![1](https://github.com/09Deep/09Deep.github.io/blob/main/images/1ff.jpeg)  
  ![2](https://github.com/09Deep/09Deep.github.io/blob/main/images/1f.jpeg)  
  ![3](https://github.com/09Deep/09Deep.github.io/blob/main/images/3f.jpeg)  
  ![4](https://github.com/09Deep/09Deep.github.io/blob/main/images/4f.jpeg)
 
-- Once the changes are done Open up command line and start jekyll on this folder
-- Then go to port 4000 using any web browser, and you will be able to see all the changes here.
+3. Once the changes are done Open up command line and start jekyll on this folder
+4. Then go to port 4000 using any web browser, and you will be able to see all the changes here.
 
 ### Step 5: Push all the changes into github
 
-- If all the changes are according to your preferences then push this repository on GitHub
-
-- Open up GitHub and select this repository
+1. If all the changes are according to your preferences then push this repository on GitHub
+2. Then Use the `git commit` command to commit all changes
+3. Then push the changes on github using `git remote add origin https://github.com/username/new_repo` command.
+4. while using the above command new repository's name should be `<username>+.github.io`
+5. Open up GitHub and go to this repository
 
 ### Step 6: Using Github pages host your resume
 
-- Inside the repository go to the settings menu.
-- Inside setting menu there is Pages button on the left hand side pannel. Click on that pages menu.
-- Choose branch on which your code is spenitting and then click on the save button.
-- After couple of seconds refresh your page and a link would be generated.
-- Click on that link and a website will open up that is hosting your resume online.
+1. Inside the repository go to the settings menu.
+2. Inside setting menu there is Pages button on the left hand side pannel. Click on that pages menu.
+3. Choose branch on which your code is spenitting and then click on the save button.
+4. After couple of seconds refresh your page and a link would be generated.
+5. Click on that link and a website will open up that is hosting your resume online.
 
 ## FAQ
 
