@@ -2,21 +2,7 @@
 
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
 *Host your own resume on GitHub for **free!***
-
-----
-Audience: CS Student
-Venue: README on Github Pages
-Purpose: Explain how to host a resume on Github Pages.
-Additional purpose: Introduce and demonstrate the principles of Andrew Etter's
-book Modern Technical Writing
-Desired Reaction: CS Students learn how to host resuem online. 
-Vocabulary: informal
-Tone: informal
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+# How to host 
 
 Following steps need to be followed to host a resume online. 
 ### Step 1: Create a GitHub account
