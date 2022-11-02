@@ -31,8 +31,9 @@ What is git?
 1. If you already don't have github account, create one.
 2. To create a github account you need to go to [github.com](https://github.com)
 ![Github signup page](https://github.com/09Deep/09Deep.github.io/blob/main/images/Github%20signup.png)
-4. Create an account by clicking on sign up and then filling out all the necessary information.
-5. Now to create a local git repository use the `git init` command.
+3. Create an account by clicking on sign up and then filling out all the necessary information.
+![Github signup requirement](https://github.com/09Deep/09Deep.github.io/blob/main/images/github%20signup%20email%20prompt.png)
+4. Now to create a local git repository use the `git init` command.
  
 
 - Once your Github account is ready create a new repository locally and name that repository as `<username>+.github.io` .
@@ -61,7 +62,7 @@ What is Jekyll themes?
 10. Type the following 2 commands one by one in the command line.
     1. `bundle install`
     2. `bundle exec jekyll serve`
-11. After executing these commands a following message will appeare.
+11. After executing these commands a following message will appeare. [Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
 12. Now you can see what an actual templete looks like without any changes.
 
 ### Step 4: Open up config.yml file and made changes according to your profile.
