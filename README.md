@@ -62,7 +62,7 @@ What is Jekyll themes?
 10. Type the following 2 commands one by one in the command line.
     1. `bundle install`
     2. `bundle exec jekyll serve`
-11. After executing these commands a following message will appeare. 
+11. After executing these commands a following message will appeare.   
  ![Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
 12. Now you can see what an actual templete looks like without any changes.
 
