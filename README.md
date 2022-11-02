@@ -63,7 +63,7 @@ What is Jekyll themes?
     1. `bundle install`
     2. `bundle exec jekyll serve`
 11. After executing these commands a following message will appeare. 
- [Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
+ ![Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
 12. Now you can see what an actual templete looks like without any changes.
 
 ### Step 4: Open up config.yml file and made changes according to your profile.
