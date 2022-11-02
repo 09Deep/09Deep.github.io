@@ -50,7 +50,7 @@ What is Jekyll?
 What is Jekyll themes?
 - Jekylll themes is a collection of lots of templetes. If you do not want to design the formate for your content, you can choose any from these available themes.     
 
-1.You need to go to [jekyll-themes.com](https://jekyll-themes.com)
+1. You need to go to [jekyll-themes.com](https://jekyll-themes.com)
 2. In search bar search for resume or CV
 3. Now different resume themes will load.
 4. Choose any theme that is suitable for your resume.
@@ -62,7 +62,8 @@ What is Jekyll themes?
 10. Type the following 2 commands one by one in the command line.
     1. `bundle install`
     2. `bundle exec jekyll serve`
-11. After executing these commands a following message will appeare. [Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
+11. After executing these commands a following message will appeare. 
+ [Sucess message from jekyll](https://github.com/09Deep/09Deep.github.io/blob/main/images/sucess%20message%20after%20jekyll%20launch.png)
 12. Now you can see what an actual templete looks like without any changes.
 
 ### Step 4: Open up config.yml file and made changes according to your profile.
