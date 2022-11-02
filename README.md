@@ -89,7 +89,7 @@ What is Jekyll themes?
 - Inside setting menu there is Pages button on the left hand side pannel. Click on that pages menu.
 - Choose branch on which your code is spenitting and then click on the save button.
 - After couple of seconds refresh your page and a link would be generated.
-- Click on that link and a website will open up that is hosting your resume online.  [my resume](https://media.giphy.com/media/V3Wr185OjKA5mIB9LA/giphy.gif)
+- Click on that link and a website will open up that is hosting your resume online.  ![my resume](https://media.giphy.com/media/V3Wr185OjKA5mIB9LA/giphy.gif)
 
 ## FAQ
 
